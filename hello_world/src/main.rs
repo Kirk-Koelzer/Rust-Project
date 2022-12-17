@@ -1,5 +1,6 @@
 fn main() {
-    let mut x = 10;
+    let mut x:u32 = 255;
+    x=x+1;
     println!("Hello, world!");
     println!("x is {}", x);
 
