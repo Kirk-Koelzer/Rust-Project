@@ -1,3 +1,5 @@
+use core::num;
+
 fn main() {
 
 //PRIMITIVE DATA TYPES
@@ -39,7 +41,12 @@ fn main() {
     value = value ^ 0b0101_0101;
     println!("value is {:08b}.", value);
 
+    let letter = 'a';
+    let number = '1';
 
+    println!("the letter is {} and the number is {}", letter, number);
 
+    let finger = '\u{261D}';
 
+    println!("the unicode char is {}", finger);
 }
