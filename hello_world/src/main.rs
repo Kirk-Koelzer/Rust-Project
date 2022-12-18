@@ -9,9 +9,9 @@ fn main() {
 
 
     let a = 10;
-    let b = 2;
-    let c = a + b;
+    let b = 2.2;
+    let c = a as f64 + b;
 
-    print!("c is equal to {}", c);
-    
+    println!("c is equal to {}", c);
+
 }
