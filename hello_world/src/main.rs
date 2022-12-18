@@ -32,8 +32,12 @@ fn main() {
     println!("value is {:08b}.", value);
 
     println!("bit 6 is {}.", value & 0b0100_0000);
+    
+    value = value | 0b0100_0000;
+    println!("value is {:08b}.", value);
 
-
+    value = value ^ 0b0101_0101;
+    println!("value is {:08b}.", value);
 
 
 
